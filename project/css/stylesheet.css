@@ -10,7 +10,7 @@ body{
 }
 @font-face{
   font-family: font1;
-  src: url(fonts/Lato-Regular.ttf);
+  src: url(project/css/fonts/Lato-Regular.ttf);
 }
 header{
   padding-bottom: 80px;
