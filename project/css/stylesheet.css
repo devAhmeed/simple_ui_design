@@ -1,0 +1,156 @@
+body{
+  background-color: #293f50;
+  color: #888;
+  font-family: MyFont;
+  font-weight: bold;
+}
+@font-face{
+  font-family: MyFONT;
+  src: url(Lato-Thin.ttf);
+}
+@font-face{
+  font-family: font1;
+  src: url(Lato-Regular.ttf);
+}
+header{
+  padding-bottom: 80px;
+}
+header.title-1{
+  float: left;
+}
+header a{
+  color: white;
+  text-decoration: none;
+}
+header a:hover{
+  color: #648880;
+}
+main{
+  clear: both;
+}
+div.Contaniner{
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  background-color: white;
+  padding: 50px 0px;
+  float: left;
+  padding-left: 30px;
+  column-gap: 10px;
+  clear: both;
+}
+
+h1[class*="title"]{
+  clear: both;
+  float: left;
+  font-variant: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-left: 25px;
+  line-height: 43px;
+  font-size: 300%;
+}
+h1.content ,p.content-A{
+  text-align: center;
+  clear: both;
+}
+h1.content{
+  color: #658488;
+  font-weight: bold;
+}
+p.content-A{
+  color: white;
+  line-height: 35px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+form.profile{
+  display: table;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+form.Contacts{
+  float: right;
+  clear: both;
+  margin-top: -50px;
+}
+p.date{
+  color: #658488;
+}
+div.info{
+  float: right;
+  clear: both;
+  margin-top: -105px;
+  direction: rtl;
+  padding-right: 30px;
+}
+div.info a{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+div.content{
+  text-align: center;
+  clear: both;
+}
+h4{
+  font-family: font1;
+  color : #658488;
+  font-weight: bold;
+}
+p.subtitle{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: font1;
+}
+
+button.bt1:hover{
+  color:#658488
+}
+button.bt2:hover{
+  color:#658488
+}
+button.bt1{
+  border-radius: 5px;
+  border: 2px white solid;
+  background-color:#293f50 ;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+  padding: 25px 50px;
+  color: white;
+  font-weight: bold;
+}
+button.bt2{
+  border-radius: 5px;
+  border: 2px white solid;
+  background-color:#293f50 ;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+  padding: 0px 50px;
+  color: white;
+  font-weight: bold;
+}
+footer p.footer{
+  float: left;
+}
+footer{
+  clear: both;
+}
+div.links{
+  float: right;
+  word-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-right: 205px;
+}
+div.links a{
+  color: white;
+  text-decoration: none;
+}
+div.links a:hover{
+  color: #648880;
+}
